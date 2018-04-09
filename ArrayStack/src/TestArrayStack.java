@@ -7,7 +7,7 @@ public class TestArrayStack {
 		System.out.println(myStack.isEmpty());//will return true: is empty
 		myStack.push(1);
 		System.out.println(myStack.peek(0));//peeks at first index
-		System.out.println(myStack.isEmpty());
+		System.out.println(myStack.isEmpty()); // will return false: is not empty
 		System.out.println("Count: "+ myStack.count());//shows total used indices
 		myStack.pop();//pop out top index
 		System.out.println("Count: "+ myStack.count());//shows total used indices
